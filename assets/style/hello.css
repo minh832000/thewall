@@ -1,0 +1,27 @@
+@font-face{
+    src:url(../font/NotoSans-Regular.ttf);
+    font-family: NotoSans;
+}
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+header{
+    background: #193549;
+    
+}
+.header{
+    height:60px
+}
+.img-logo{
+    widht:40px;
+    height: 40px;
+}
+.nav-menu{
+    /* font-family: NotoSans; */
+    letter-spacing:0.5px;
+    font-weight:400;
+    font-size: 14px;
+
+}
