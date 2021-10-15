@@ -31,25 +31,37 @@ header{
     color: #193549;
 }
 .icon-menu{
-    display:none !important; 
+    display:none; 
 }
 .icon-close{
     display: none;
 }
-@media (max-width: 446px){
+.over {
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 99;
+}
+@media (max-width: 576px){
     .name{
         font-size:14px;
     }
     .nav{
-        /* display:none; */
+        display:none;
         position:fixed;
         right:0px;
         background: #193549;
         padding: 10px 8px;
         padding-bottom: 50vh;
+        z-index: 100;
     }
     .icon-menu{
-        /* display:block; */
+        display:flex;
     }
     .icon-close{
         display: block;
