@@ -7,9 +7,9 @@
     margin:0;
     padding:0;
 }
+//header
 header{
     background: #193549;
-    
 }
 .header{
     height:60px
@@ -18,10 +18,72 @@ header{
     widht:40px;
     height: 40px;
 }
+
 .nav-menu{
-    /* font-family: NotoSans; */
+    font-family: NotoSans;
     letter-spacing:0.5px;
     font-weight:400;
     font-size: 14px;
-
+}
+.btn-employer{
+    font-family: NotoSans;
+    font-weight: 600;
+    color: #193549;
+}
+.icon-menu{
+    display:none !important; 
+}
+.icon-close{
+    display: none;
+}
+@media (max-width: 446px){
+    .name{
+        font-size:14px;
+    }
+    .nav{
+        /* display:none; */
+        position:fixed;
+        right:0px;
+        background: #193549;
+        padding: 10px 8px;
+        padding-bottom: 50vh;
+    }
+    .icon-menu{
+        /* display:block; */
+    }
+    .icon-menu img{
+        width: 20px;
+        height:20px;
+        margin-left: calc(100% - 20px);
+    }
+    .nav-menu ul li{
+        display: block !important;
+        height:40px;
+    }
+    
+    .sign-up a{
+        display:block;
+        height:40px
+    }
+    .sign-up,
+    .nav-menu{
+        border-bottom: #fff 1px solid;
+        margin: 0 12px;
+        padding: 0;
+    }
+    .sign-up{
+        margin-top: 20px
+    }
+    .icon-close{
+        height: 70px;
+    }
+    .btn-employer{
+        margin: 30px 0;
+    }
+    .icon-close img{
+        widht:20px;
+        height:20px;
+        float: right;
+    }
+    
 }
