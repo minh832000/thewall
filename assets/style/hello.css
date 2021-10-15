@@ -7,7 +7,7 @@
     margin:0;
     padding:0;
 }
-//header
+//header----------------------------
 header{
     background: #193549;
 }
@@ -18,7 +18,6 @@ header{
     widht:40px;
     height: 40px;
 }
-
 .nav-menu{
     font-family: NotoSans;
     letter-spacing:0.5px;
@@ -47,7 +46,42 @@ header{
     opacity: 0.8;
     z-index: 99;
 }
-@media (max-width: 576px){
+@media(min-width:768px){
+    .nav{
+        display:flex !important;
+    }
+    .over {
+        display:none !important;
+    }
+    //reset sợ lỗi :v
+}
+@media(min-width: 992px) and (max-width:1199px){
+    .row{
+        padding:0
+    }
+    
+}
+@media(min-width: 768px) and (max-width:991px){
+    .row{
+        --bs-gutter-x:0
+    }
+    
+    .name{
+        font-size:14px !important;
+    }
+    .nav-menu, .sign-up a{
+        font-size: 12px !important;
+        letter-spacing:0;
+    }
+    .sign-up a{
+        margin-right:2px !important;
+    }
+    .btn-employer{
+        font-size:12px !important;
+    }
+}
+
+@media (max-width: 767px){
     .name{
         font-size:14px;
     }
@@ -105,3 +139,4 @@ header{
     }
     
 }
+// end full header
