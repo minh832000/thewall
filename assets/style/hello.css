@@ -243,13 +243,13 @@ header{
     border-bottom: #ccc 1px solid;
     cursor:pointer;
 }
-.list-job, .des-information{
+.list-job, .job-information{
     background: rgba(0, 0, 0, 0.58);
 }
-.des-information{
+.job-information{
     padding: 2rem 5rem;
 }
-.des-information h2{
+.job-information h2{
     border-bottom: #fff 1px solid;
 }
 .img-introduce img{
