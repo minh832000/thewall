@@ -308,9 +308,7 @@ header{
     transition: 1s;
 }
 /* Responsive */
-.container{
-    overflow:hidden;
-}
+
 @media(min-width: 768px) and (max-width: 991px){
     .benefit-item{
         width: 30%;
