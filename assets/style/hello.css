@@ -219,3 +219,27 @@ header{
     /* Hide all images except the first */
     display: none;
 }
+
+.card-number-member{
+    border: 1px solid rgba(0, 35, 158, 0.4);
+    color: #00239E;
+    font-family:NotoSans;
+}
+.card-number-member h2{
+    color: #EC5211;
+}
+/*list job*/
+.job-introduce{
+    background: url("../image/hello/bg.png");
+    background-repeat: no-repeat;
+    padding: 2.5rem;
+    background-attachment: fixed;
+}
+.list-job ul li{
+    padding: 12px 6px;
+    color: #fff;
+    border-bottom: #ccc 1px solid
+}
+.list-job{
+    background: rgba(0, 0, 0, 0.58);
+}
