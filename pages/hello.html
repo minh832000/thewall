@@ -9,6 +9,10 @@
     <link href="../assets/vendor/bootstrap-5.0.1-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/style/hello.css">
     <link rel="stylesheet" href="../assets/style/base.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <!------------HEADER------------------>
@@ -148,25 +152,58 @@
         <!-------------------DANH SÁCH CÁC CÔNG VIỆC------------------------->
         <div class="job-introduce">
             <div class="container">
-                <div class="row d-flex my-5">
+                <div class="row d-flex justify-content-between my-5">
                     <div class="list-job col-3">
                         <ul class="list-unstyled ">
-                            <li>Thiết kế</li>
-                            <li>Tài chính</li>
-                            <li>Kỹ sư</li>
-                            <li>Nhân sự</li>
-                            <li>Quản lý dự án</li>
-                            <li>Kinh doanh/Sale</li>
-                            <li>Marketing</li>
-                            <li>Truyền thông</li>
+                            <li id="job-1">Thiết kế</li>
+                            <li id="job-2">Tài chính</li>
+                            <li id="job-3">Kỹ sư</li>
+                            <li id="job-4">Nhân sự</li>
+                            <li id="job-5">Quản lý dự án</li>
+                            <li id="job-6">Kinh doanh/Sale</li>
+                            <li id="job-7">Marketing</li>
+                            <li id="job-8">Truyền thông</li>
                         </ul>
+                    </div>
+                    <div class="des-information col-8 text-white text-noto-re">
+                        <h2 class="text-noto-b fs-3 w-50 d-inline-block pb-2">THIẾT KẾ</h2>
+                        <p class="fs-14">
+                            Thiết kế là việc tạo ra một bản vẽ hoặc quy ước nhằm tạo dựng một đối tượng, 
+                            một hệ thống hoặc một tương tác giữa người với người có thể đo lường được 
+                            (như ở các bản vẽ chi tiết kiến trúc, bản vẽ kỹ thuật, quy trình kinh doanh, sơ đồ mạch điện,  ni mẫu cắt may...)
+                        </p>
+                        <ul class="fs-14">
+                            <li>2399 việc làm còn trống</li>
+                            <li>1017 cơ hội việc làm</li>
+                        </ul>
+                        <div class="img-introduce px-5">
+                            <div class="swiper-container mt-4 pt-5 frame-swiper mySwiper-slide items-center w-7/12 mx-auto my-14">
+                                <div class="swiper-wrapper ">
+                                    <div class=" swiper-slide " style="width:160px">
+                                        <img class="scale-img" src="../assets/image/hello/des-4.jpg" alt="">
+                                    </div>
+                                    <div class=" swiper-slide" style="width:160px">
+                                        <img class="scale-img" src="../assets/image/hello/des-5.jpg" alt="">
+                                    </div>
+                                    <div class=" swiper-slide" style="width:160px">
+                                        <img class="scale-img" src="../assets/image/hello/des-3.jpg" alt="">
+                                    </div>
+                                    <div class=" swiper-slide" style="width:160px">
+                                        <img class="scale-img" src="../assets/image/hello/des-2.jpg" alt="">
+                                    </div>
+                                    <div class=" swiper-slide" style="width:160px">
+                                        <img class="scale-img" src="../assets/image/hello/des-11.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
     <!-- Javascript files -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="../assets/vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="../assets/javascript/hello.js"></script>
     <script src="../assets/vendor/bootstrap-5.0.1-dist/js/bootstrap.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

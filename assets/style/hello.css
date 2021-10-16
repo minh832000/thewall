@@ -232,14 +232,33 @@ header{
 .job-introduce{
     background: url("../image/hello/bg.png");
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 2.5rem;
     background-attachment: fixed;
+
 }
 .list-job ul li{
     padding: 12px 6px;
     color: #fff;
-    border-bottom: #ccc 1px solid
+    border-bottom: #ccc 1px solid;
+    cursor:pointer;
 }
-.list-job{
+.list-job, .des-information{
     background: rgba(0, 0, 0, 0.58);
+}
+.des-information{
+    padding: 2rem 5rem;
+}
+.des-information h2{
+    border-bottom: #fff 1px solid;
+}
+.img-introduce img{
+    width: 100%;
+    height: 100%;
+}
+.frame-swiper{
+    overflow: hidden;
+}
+.wiper-slide{
+    margin-right: 48px;
 }

@@ -47,5 +47,23 @@ jQuery(document).ready(function($){
     window.setInterval(function() {
         $('#previous').click();
     }, 5000);
+
+    function toggleNavbar(collapseID) {
+        document.getElementById(collapseID).classList.toggle("hidden");
+        document.getElementById(collapseID).classList.toggle("block");
+      }
+      var swiper = new Swiper(".mySwiper-slide", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          loop:"true",
+          spaceBetween:32,
+          coverflowEffect: {
+            rotate: 0,
+            
+          },
+          
+        });
 })
 
