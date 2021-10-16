@@ -1,3 +1,4 @@
+
 .m1 {
       margin: 10px;
 }
@@ -9,4 +10,16 @@
 }
 .fs-14{
       font-size:14px;
+}
+
+@font-face{
+      src:url(../font/NotoSans-Regular.ttf);
+      font-family: NotoSans;
+}
+@font-face{
+      src:url(../font/NotoSans-Bold.ttf);
+      font-family: NotoSansBold;
+  }
+.text-noto-b{
+      font-family:NotoSansBold
 }
