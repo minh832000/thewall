@@ -7,7 +7,7 @@
     margin:0;
     padding:0;
 }
-//header----------------------------
+/*header----------------------------*/
 header{
     background: #193549;
 }
@@ -47,9 +47,6 @@ header{
     z-index: 99;
 }
 @media(min-width:768px){
-    .nav{
-        display:flex !important;
-    }
     .over {
         display:none !important;
     }
@@ -139,4 +136,30 @@ header{
     }
     
 }
-// end full header
+/* end full header*/
+.search-job {
+    background-color:#E5F2F9;
+    border-radius: 6px;
+    border: #B1B2CD 1px solid;
+}
+.input-sr:focus{
+    outline:none;
+}
+.search-job input::placeholder{
+    color: rgba(43, 49, 180, 0.53);
+    font-size: 14px;
+    font-family:NotoSans;
+}
+.search-location{
+    background-color:#FEF2DE;
+    border-radius: 6px;
+    border: #CCCCCC 1px solid;
+}
+.search-location input::placeholder{
+    color: rgba(114, 88, 49, 0.46);
+    font-size: 14px;
+    font-family:NotoSans;
+}
+.btn-search button{
+    width:154px
+}
