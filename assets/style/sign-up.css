@@ -134,19 +134,17 @@ header{
     
 }
 /* end full header*/
-/*------------------*/
-.sign-in{
+.sign-up-site{
     margin-top: 10rem;
     border: #ccc 1px solid;
-    width: 450px;
+    width: 500px;
     border-radius: 6px;
     margin-bottom: 15rem;
-    padding: 50px 40px
+   
 }
 @media (max-width: 567px){
-    .sign-in{
+    .sign-up-site{
         width: 95%;
-        padding: 50px 25px;
     }
 }
 .input img 
@@ -166,10 +164,10 @@ header{
     border-radius: 6px;
 
 }
-.sign-in button{
+.sign-up-site button{
     border-radius: 6px;
 }
-.sign-in span{
+.sign-up-site span{
     position: relative;
     left: calc(50% - 20px);
     top: -31px;
