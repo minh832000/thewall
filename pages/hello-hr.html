@@ -8,6 +8,7 @@
     <link href="../assets/vendor/bootstrap-5.0.1-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/style/hello-hr.css">
     <link rel="stylesheet" href="../assets/style/base.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!------------HEADER------------------>
@@ -27,7 +28,13 @@
     </header>
     <div id="content">
         <div class="banner">
-            <div class="content-banner text-center text-white">
+            <div class="content-banner text-center text-white"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >
                 <h1 class="text-noto-b text-shadow">
                     TÌM ỨNG VIÊN TÀI NĂNG CÙNG<br> THE WALL NGAY BÂY GIỜ!
                 </h1>
@@ -37,7 +44,13 @@
         </div>
         <div class="container">
             <!---------------------SỐ LIỆU QUẢNG BÁ--------------------------->
-            <div class="card-number d-flex row my-5 pb-5 justify-content-center">
+            <div class="card-number d-flex row my-5 pb-5 justify-content-center"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >
                 <h2 class="fs-3 text-center mb-5 py-4"><span>THE WALL</span> QUA NHỮNG CON SỐ</h2>
                 <div class="col-md col-10 card-number-member p-4">
                     <p>Chúng tôi đã giúp</p>
@@ -57,7 +70,13 @@
                         cập nhật hàng tháng</p>
                 </div>
             </div>
-            <div class="adv-solution text-center">
+            <div class="adv-solution text-center"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >
                 <h2 class="fs-3 text-center pb-4 text-uppercase">
                     <span class="fs-2"> 1,000+ </span>Doanh nghiệp tại việt nam đang tuyển dụng<br> cùng THE WALL. Bạn đã thử chưa?
                 </h2>
@@ -104,6 +123,10 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="../assets/vendor/bootstrap-5.0.1-dist/js/bootstrap.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

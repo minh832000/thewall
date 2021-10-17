@@ -113,9 +113,5 @@ $('#previous-rv').on('click', function(){
     window.setInterval(function() {
         $('#previous-rv').click();
     }, 5000);
-// $('#previous-rv').on('click', function(){
-
-// })
-
 })
 

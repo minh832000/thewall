@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!------------HEADER------------------>
@@ -65,7 +66,13 @@
                     <button class="text-light w-100 border-0 h-100 bg-web">TÌM KIẾM</button>
                 </div>
             </div>
-            <div class="px-md-0 px-4 row member-registration d-flex">
+            <div class="px-md-0 px-4 row member-registration d-flex overflow-hidden"
+                data-aos="fade-down"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >
                 <div class="register-adv p-0 col-md-6 col-12">
                     <h2 class="fs-4 pt-4  text-noto-b">ĐẨY NHANH QUÁ TRÌNH ỨNG TUYỂN <br>
                     KHI BẠN LÀ THÀNH VIÊN CỦA THE WALL</h2>
@@ -129,7 +136,13 @@
                 </div>
             </div>
             <!---------------------SỐ LIỆU QUẢNG BÁ--------------------------->
-            <div class="card-number d-flex row my-5 pb-5 justify-content-center">
+            <div class="card-number d-flex row my-5 pb-5 justify-content-center"
+                data-aos="fade-down"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >
                 <div class="col-md col-10 card-number-member p-4">
                     <p>Chúng tôi đã giúp</p>
                     <h2 class="text-noto-b">2.042.899</h2>
@@ -240,7 +253,13 @@
             </div>
         </div>
         <div class="container">
-            <div class="benefit my-5 py-5">
+            <div class="benefit my-5 py-5"
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >
                 <h2 class="fs-3 text-noto-b text-center">
                     THAM GIA CỘNG ĐỒNG <span class="color-red fs-1">1.000.000+</span> ỨNG VIÊN TÀI NĂNG 
                 </h2>
@@ -398,6 +417,10 @@
         </div>
     </footer>
     <!-- Javascript files -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="../assets/vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="../assets/javascript/hello.js"></script>

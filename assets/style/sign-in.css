@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+/*header----------------------------*/
+header{
+    background: #193549;
+    z-index:1000;
+}
+.header{
+    height:60px
+}
+.img-logo{
+    width:40px;
+    height: 40px;
+}
+.nav-menu{
+    font-family: NotoSans;
+    letter-spacing:0.5px;
+    font-weight:400;
+    font-size: 14px;
+}
+.btn-employer{
+    font-family: NotoSans;
+    font-weight: 600;
+    color: #193549;
+}
+.icon-menu{
+    display:none; 
+}
+.icon-close{
+    display: none;
+}
+.over {
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 99;
+}
+@media(min-width:768px){
+    .over {
+        display:none !important;
+    }
+    //reset sợ lỗi :v
+}
+@media(min-width: 992px) and (max-width:1199px){
+    .row{
+        padding:0
+    }
+    
+}
+@media(min-width: 768px) and (max-width:991px){
+    .row{
+        --bs-gutter-x:0
+    }
+    
+    .name{
+        font-size:14px !important;
+    }
+    .nav-menu, .sign-up a{
+        font-size: 12px !important;
+        letter-spacing:0;
+    }
+    .sign-up a{
+        margin-right:2px !important;
+    }
+    .btn-employer{
+        font-size:12px !important;
+    }
+}
+
+@media (max-width: 767px){
+    .name{
+        font-size:14px;
+    }
+    .nav{
+        display:none;
+        position:fixed;
+        right:0px;
+        background: #193549;
+        padding: 10px 8px;
+        padding-bottom: 50vh;
+        z-index: 100;
+    }
+    .icon-menu{
+        display:flex;
+    }
+    .icon-close{
+        display: block;
+    }
+    .icon-menu img{
+        width: 20px;
+        height:20px;
+        margin-left: calc(100% - 20px);
+    }
+    .nav-menu ul li{
+        display: block !important;
+        height:40px;
+    }
+    
+    .sign-up a{
+        display:block;
+        height:40px
+    }
+    .sign-up,
+    .nav-menu{
+        border-bottom: #fff 1px solid;
+        margin: 0 12px;
+        padding: 0;
+    }
+    .sign-up{
+        margin-top: 20px
+    }
+    .icon-close{
+        height: 70px;
+    }
+    .btn-employer{
+        margin: 30px 0;
+    }
+    .icon-close img{
+        width:20px;
+        height:20px;
+        float: right;
+    }
+    .nav-menu ul{
+        padding-left:0 !important;
+    }
+    
+}
+/* end full header*/
+/*------------------*/
+.sign-in{
+    margin-top: 10rem;
+    border: #ccc 1px solid;
+    width: 40%;
+    border-radius: 6px;
+    margin-bottom: 15rem;
+    min-width: 367px;
+}
+.input img 
+{
+    width: 20px;
+}
+.input input{
+    border: none;
+    height: 40px;
+    width: 90%;
+}
+.input input:focus{
+    outline: none;
+}
+.input{
+    border: #ccc 1px solid;
+    border-radius: 6px;
+
+}
+.sign-in button{
+    border-radius: 6px;
+}
+.sign-in span{
+    position: relative;
+    left: calc(50% - 20px);
+    top: -31px;
+    background: #fff;
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+}
+.btn-gg{
+    background: #C10909;
+    margin-top: -15px;
+}
