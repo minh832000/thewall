@@ -1,6 +1,8 @@
+
 .m1 {
       margin: 10px;
 }
+
 .bg-btn{
       background: #71CFFF;
 }
@@ -9,4 +11,21 @@
 }
 .fs-14{
       font-size:14px;
+}
+.text-medium{
+      font-weight: 600
+}
+@font-face{
+      src:url(../font/NotoSans-Regular.ttf);
+      font-family: NotoSans;
+}
+@font-face{
+      src:url(../font/NotoSans-Bold.ttf);
+      font-family: NotoSansBold;
+  }
+.text-noto-b{
+      font-family:NotoSansBold
+}
+.text-noto-re{
+      font-family:NotoSans
 }
