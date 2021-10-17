@@ -19,15 +19,15 @@ jQuery(document).ready(function($){
  // Slide review
     $('#previous').on('click', function(){
     // Change to the previous Card
-        $('#card_' + currentCard).stop().fadeOut(5);
+        $('#card_' + currentCard).stop().fadeOut(1);
         decreaseCard();
-        $('#card_' + currentCard).stop().fadeIn(5);
+        $('#card_' + currentCard).stop().fadeIn(1);
         });
         $('#next').on('click', function(){
         // Change to the next Card
-        $('#card_' + currentCard).stop().fadeOut(5);
+        $('#card_' + currentCard).stop().fadeOut(1);
         increaseCard();
-        $('#card_' + currentCard).stop().fadeIn(5);
+        $('#card_' + currentCard).stop().fadeIn(1);
     });
     var currentCard = 1;
     var totalCards = 3;
@@ -80,6 +80,42 @@ $(document).on('click', "#job-2", function() {
             rotate: 0,
         },
     });
+
+
+// Slide review người dùng The Wall
+$('#previous-rv').on('click', function(){
+    // Change to the previous Review
+        $('#rv-' + currentReview).hide();
+        decreaseReview();
+        $('#rv-' + currentReview).show();
+        });
+        $('#next-rv').on('click', function(){
+        // Change to the next Review
+        $('#rv-' + currentReview).hide();
+        increaseReview();
+        $('#rv-' + currentReview).show();
+    });
+    var currentReview = 1;
+    var totalReviews = 3;
+    function increaseReview() {
+        ++currentReview;
+        if(currentReview > totalReviews) {
+            currentReview = 1;
+        }
+    }
+    function decreaseReview() {
+
+        --currentReview;
+        if(currentReview < 1) {
+            currentReview = totalReviews;
+        }
+    }
+    window.setInterval(function() {
+        $('#previous-rv').click();
+    }, 5000);
+// $('#previous-rv').on('click', function(){
+
+// })
 
 })
 

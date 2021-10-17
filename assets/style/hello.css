@@ -219,7 +219,9 @@ header{
     /* Hide all images except the first */
     display: none;
 }
-
+.review-item{
+    transition:2s;
+}
 .card-number-member{
     border: 1px solid rgba(0, 35, 158, 0.4);
     color: #00239E;
@@ -332,4 +334,51 @@ header{
     .mt-10s{
         margin-top: 5rem;
   }
+}
+/*người dùng review*/
+.user-review span{
+    color:#EC5211;
+}
+.img-small{
+    width:56px;
+    border-radius:50%;
+}
+.img-big{
+    width:75px;
+    border-radius:50%;
+}
+.img-small img{
+    transform:translateY(50%);
+}
+.img-small .over-img{
+    background:rgba(43, 41, 159, 0.74);
+    transform:translateY(50%);
+    width:56px;
+    height:56.7px;
+    border-radius: 50%;
+    z-index:1;
+}
+.rv-content{
+    margin:0 15%;
+}
+#previous-rv{
+    left:0px;
+    top:50%;
+    cursor:pointer;
+}
+#next-rv{
+    right: 0px;
+    top:50%;
+    cursor:pointer;
+}
+.user-review-item{
+    transition:1s;
+    margin-top:40px;
+}
+.user-review{
+    height:50vh;
+}
+.user-review-item:not(:first-child) {
+    /* Hide all images except the first */
+    display: none;
 }
