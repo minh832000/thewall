@@ -10,6 +10,7 @@
 /*header----------------------------*/
 header{
     background: #193549;
+    z-index:1000;
 }
 .header{
     height:60px
@@ -376,9 +377,24 @@ header{
     margin-top:40px;
 }
 .user-review{
-    height:50vh;
+    height: 23rem;
 }
 .user-review-item:not(:first-child) {
     /* Hide all images except the first */
     display: none;
+}
+@media(max-width: 576px){
+    .user-review{
+        height: 28rem;
+    }
+}
+/* FOOTER */
+
+.social-icon img{
+    width:40px;
+}
+.site-linking ul li a{
+    color: #fff;
+    text-decoration:none;
+    font-size: 14px;
 }
