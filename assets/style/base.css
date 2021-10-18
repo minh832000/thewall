@@ -15,6 +15,7 @@
 .text-medium{
       font-weight: 600
 }
+/*----font Noto sans-----*/
 @font-face{
       src:url(../font/NotoSans-Regular.ttf);
       font-family: NotoSans;
@@ -22,10 +23,47 @@
 @font-face{
       src:url(../font/NotoSans-Bold.ttf);
       font-family: NotoSansBold;
-  }
+}
 .text-noto-b{
-      font-family:NotoSansBold
+      font-family:NotoSansBold;
 }
 .text-noto-re{
-      font-family:NotoSans
+      font-family:NotoSans;
+}
+.clear{
+      clear: both;
+}
+
+/*----font Roboto-----*/
+@font-face{
+      src:url(../font/Roboto-Medium.ttf);
+      font-family: RobotoMedium;
+}
+@font-face{
+      src:url(../font/Roboto-Regular.ttf);
+      font-family: RobotoRegular;
+}
+
+.text-roboto-m{
+      font-family:RobotoMedium;
+}
+.text-roboto-re{
+      font-family:RobotoRegular;
+}
+
+
+/*-----font Work Sans-----*/
+@font-face{
+      src:url(../font/font-work-sans/WorkSans-Light.otf);
+      font-family: WorkSansLight;
+}
+.text-worksans-l{
+      font-family: WorkSansLight;
+}
+@font-face{
+      src:url(../font/font-work-sans/WorkSans-Regular.otf);
+      font-family: WorkSansRegular;
+}
+.text-worksans-re{
+      font-family: WorkSansRegular;
 }
