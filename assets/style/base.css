@@ -36,19 +36,180 @@
       font-style: italic;
       font-display: swap;
 }
+/* ---------- Work Sans ---------- */
+@font-face {
+      font-family: 'Work Sans Black';
+      src: url('../font/WorkSans/WorkSans-Black.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-Black.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-Black.otf') format('otf');
+      font-weight: 900;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans Black Italic';
+      src: url('../font/WorkSans/WorkSans-BlackItalic.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-BlackItalic.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-BlackItalic.otf') format('otf');
+      font-weight: 900;
+      font-style: italic;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans Bold';
+      src: url('../font/WorkSans/WorkSans-Bold.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-Bold.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-Bold.otf') format('otf');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans ExtraBold Italic';
+      src: url('../font/WorkSans/WorkSans-ExtraBoldItalic.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-ExtraBoldItalic.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-ExtraBoldItalic.otf') format('otf');
+      font-weight: bold;
+      font-style: italic;
+      font-display: swap;
+} 
+@font-face {
+      font-family: 'Work Sans ExtraBold';
+      src: url('../font/WorkSans/WorkSans-ExtraBold.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-ExtraBold.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-ExtraBold.otf') format('otf');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans ExtraLight';
+      src: url('../font/WorkSans/WorkSans-ExtraLight.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-ExtraLight.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-ExtraLight.otf') format('otf');
+      font-weight: 200;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans Bold Italic';
+      src: url('../font/WorkSans/WorkSans-BoldItalic.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-BoldItalic.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-BoldItalic.otf') format('otf');
+      font-weight: bold;
+      font-style: italic;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans Hairline';
+      src: url('../font/WorkSans/WorkSans-Hairline.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-Hairline.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-Hairline.otf') format('otf');
+      font-weight: 100;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans ExtraLight Italic';
+      src: url('../font/WorkSans/WorkSans-ExtraLightItalic.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-ExtraLightItalic.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-ExtraLightItalic.otf') format('otf');
+      font-weight: 200;
+      font-style: italic;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans Italic';
+      src: url('../font/WorkSans/WorkSans-Italic.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-Italic.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-Italic.otf') format('otf');
+      font-weight: normal;
+      font-style: italic;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans Light';
+      src: url('../font/WorkSans/WorkSans-Light.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-Light.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-Light.otf') format('otf');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans Medium';
+      src: url('../font/WorkSans/WorkSans-Medium.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-Medium.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-Medium.otf') format('otf');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans Light Italic';
+      src: url('../font/WorkSans/WorkSans-LightItalic.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-LightItalic.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-LightItalic.otf') format('otf');
+      font-weight: 300;
+      font-style: italic;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans Medium Italic';
+      src: url('../font/WorkSans/WorkSans-MediumItalic.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-MediumItalic.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-MediumItalic.otf') format('otf');
+      font-weight: 500;
+      font-style: italic;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans Regular';
+      src: url('../font/WorkSans/WorkSans-Regular.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-Regular.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-Regular.otf') format('otf');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans SemiBold';
+      src: url('../font/WorkSans/WorkSans-SemiBold.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-SemiBold.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-SemiBold.otf') format('otf');
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans Thin Italic';
+      src: url('../font/WorkSans/WorkSans-ThinItalic.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-ThinItalic.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-ThinItalic.otf') format('otf');
+      font-weight: 100;
+      font-style: italic;
+      font-display: swap;
+}  
+@font-face {
+      font-family: 'Work Sans Thin';
+      src: url('../font/WorkSans/WorkSans-Thin.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-Thin.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-Thin.otf') format('otf');
+      font-weight: 100;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Work Sans SemiBold Italic';
+      src: url('../font/WorkSans/WorkSans-SemiBoldItalic.woff2') format('woff2'),
+           url('../font/WorkSans/WorkSans-SemiBoldItalic.woff') format('woff'),
+           url('../font/WorkSans/WorkSans-SemiBoldItalic.otf') format('otf');
+      font-weight: 600;
+      font-style: italic;
+      font-display: swap;
+}
   
-      
-@font-face{
-      src: url(../font/NotoSans-Regular.ttf);
-      font-family: NotoSans;
-}
-
-@font-face{
-      src: url(../font/NotoSans-Bold.ttf);
-      font-family: NotoSansBold;
-}
-
-
+  
 /*----font Roboto-----*/
 @font-face{
       src:url(../font/Roboto-Medium.ttf);
@@ -64,23 +225,6 @@
 }
 .text-roboto-re{
       font-family:RobotoRegular;
-}
-
-
-/*-----font Work Sans-----*/
-@font-face{
-      src:url(../font/font-work-sans/WorkSans-Light.otf);
-      font-family: WorkSansLight;
-}
-.text-worksans-l{
-      font-family: WorkSansLight;
-}
-@font-face{
-      src:url(../font/font-work-sans/WorkSans-Regular.otf);
-      font-family: WorkSansRegular;
-}
-.text-worksans-re{
-      font-family: WorkSansRegular;
 }
 
 
@@ -101,12 +245,6 @@
       font-weight: 600
 }
 
-.text-noto-b{
-      font-family:NotoSansBold;
-}
-.text-noto-re{
-      font-family:NotoSans;
-}
 .clear{
       clear: both;
 }
@@ -124,4 +262,59 @@
 }
 .font-NotoSans-Regular {
       font-family: 'Noto Sans Regular';
+}
+/* ---------- Work Sans ---------- */
+.font-WorkSans-Black {
+      font-family: 'Work Sans Black';
+}
+.font-WorkSans-BlackItalic {
+      font-family: 'Work Sans Black Italic';
+}
+.font-WorkSans-Bold {
+      font-family: 'Work Sans Bold';
+}
+.font-WorkSans-BoldItalic {
+      font-family: 'Work Sans BoldItalic';
+}
+.font-WorkSans-ExtraBold {
+      font-family: 'Work Sans ExtraBold';
+}
+.font-WorkSans-ExtraBoldItalic {
+      font-family: 'Work Sans ExtraBold Italic';
+}
+.font-WorkSans-ExtraLight {
+      font-family: 'Work Sans ExtrLight';
+}
+.font-WorkSans-ExtraLightItalic {
+      font-family: 'Work Sans ExtraLight Italic';
+}
+.font-WorkSans-Hairline {
+      font-family: 'Work Sans Hairline';
+}
+.font-WorkSans-Italic {
+      font-family: 'Work Sans Italic';
+}
+.font-WorkSans-Light {
+      font-family: 'Work Sans Light';
+}
+.font-WorkSans-LightItalic {
+      font-family: 'Work Sans Light Italic';
+}
+.font-WorkSans-Medium {
+      font-family: 'Work Sans Medium';
+}
+.font-WorkSans-Regular {
+      font-family: 'Work Sans Regular';
+}
+.font-WorkSans-SemiBold {
+      font-family: 'Work Sans SemiBold';
+}
+.font-WorkSans-SemiBoldItalic {
+      font-family: 'Work Sans SemiBold Italic';
+}
+.font-WorkSans-Thin {
+      font-family: 'Work Sans Thin';
+}
+.font-WorkSans-ThinItalic {
+      font-family: 'Work Sans Thin Italic';
 }
