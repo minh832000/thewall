@@ -45,3 +45,9 @@
 .content-card img{
     width: 15px;
 }
+.color-blue{
+    color:#7199FF;
+}
+.list-company {
+    --bs-gutter-x: 1.5rem;
+}
