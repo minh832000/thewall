@@ -4,9 +4,242 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Wall - Danh sách công ty</title>
+    <link rel="shortcut icon" href="../assets/image/logo.png" type="image/x-icon"/>
+    <link href="../assets/vendor/bootstrap-5.0.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/style/header.css">
+    <link rel="stylesheet" href="../assets/style/company-list.css">
+    <link rel="stylesheet" href="../assets/style/base.css">
+    <link rel="stylesheet" href="../assets/style/footer.css">
 </head>
 <body>
-    
+    <!------------HEADER------------------>
+    <header class="bg-web position-fixed top-0 w-100">
+        <div class="container ">
+            <div class=" header d-flex row justify-content-between ">
+                <div class="logo col-md-2  col-10 d-flex align-items-center">
+                    <img class="img-logo" src="../assets/image/logo.png" alt="">
+                    <p class="name text-white mb-0 fs-5">The Wall</p>
+                </div>
+                <div class="icon-menu col-2 align-items-center ">
+                    <img src="../assets/image/menu.png" alt="">
+                </div>
+                <div class="nav d-md-flex col-md-10 col-9 row justify-content-between align-items-center">
+                    <div class="icon-close">
+                        <img src="../assets/image/close-button.png" alt="">
+                    </div>
+                    <div class="nav-menu row col-md-6 col-12 ">
+                        <ul class="list-unstyled mb-0 ">
+                            <li class="d-inline-block me-4"><a class="text-decoration-none text-light" href="">CƠ HỘI VIỆC LÀM</a></li>
+                            <li class="d-inline-block"><a class="text-decoration-none text-light" href="">DANH SÁCH CÔNG TY</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 row justify-content-between align-items-center">
+                        <div class="sign-up col-md-6 col-12">
+                            <a class=" fs-14 text-decoration-none me-4 text-light" href="">ĐĂNG NHẬP</a>
+                            <a class=" fs-14 text-decoration-none text-light" href="">ĐĂNG KÝ</a> 
+                        </div>
+                        <div class="col-md-6 col-12 ">
+                            <button class="float-md-end p-2 fs-14 btn-employer bg-btn border-0">NHÀ TUYỂN DỤNG <img src="../assets/image/Arrow 1.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="content" class="text-noto-re pt-5 pb-5 mb-5">
+        <div class="container">
+            <div class="search my-5 px-md-0 px-4 row justify-content-between gy-3">
+                <div class="search-job p-1 col-md-5 col-12">
+                    <img src="../assets/image/hello/search.png" alt="">
+                    <input class="input-sr border-0 bg-transparent" type="text" placeholder="Tìm kiếm việc làm">
+                </div>
+                <div class="search-location p-1 col-md-5 col-12">
+                    <img src="../assets/image/location.png" alt="">
+                    <input class="input-sr border-0 bg-transparent" type="text" placeholder="Tìm kiếm việc làm">
+                </div>
+                <div class="btn-search">
+                    <button class="text-light w-100 border-0 h-100 bg-web">TÌM KIẾM</button>
+                </div>
+            </div>
+            <div class="list-company row row-cols-lg-3 row-cols-sm-2 row-cols-1 ">
+                <div class="card-inf-company my-3">
+                    <div class="card p-4">
+                        <div class="title-card d-flex">
+                            <div class="img-company">
+                                <img class="w-100" src="../assets/image/list-job/fpt-software-tuyen.png" alt="">
+                            </div>
+                            <div class="title-post ms-3 col-8">
+                                <p class="fs-6 text-roboto-m m-0">Sortware-engineer</p>                                 
+                                <p class="fs-14 text-worksans-l color-gray-light m-0">Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                        <div class="content-card p-3 text-worksans-l fs-14">
+                            <p class=" mb-1"><img class="me-2" src="../assets/image/list-company/building.png" alt="">Information Technology</p>
+                            <p class="color-blue mb-1"><img class="me-2" src="../assets/image/list-company/gps.png" alt="">4 vị trí đang tuyển</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-inf-company my-3">
+                    <div class="card p-4">
+                        <div class="title-card d-flex">
+                            <div class="img-company">
+                                <img class="w-100" src="../assets/image/list-job/fpt-software-tuyen.png" alt="">
+                            </div>
+                            <div class="title-post ms-3 col-8">
+                                <p class="fs-6 text-roboto-m m-0">Sortware-engineer</p>                                 
+                                <p class="fs-14 text-worksans-l color-gray-light m-0">Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                        <div class="content-card p-3 text-worksans-l fs-14">
+                            <p class=" mb-1"><img class="me-2" src="../assets/image/list-company/building.png" alt="">Information Technology</p>
+                            <p class="color-blue mb-1"><img class="me-2" src="../assets/image/list-company/gps.png" alt="">4 vị trí đang tuyển</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-inf-company my-3">
+                    <div class="card p-4">
+                        <div class="title-card d-flex">
+                            <div class="img-company">
+                                <img class="w-100" src="../assets/image/list-job/fpt-software-tuyen.png" alt="">
+                            </div>
+                            <div class="title-post ms-3 col-8">
+                                <p class="fs-6 text-roboto-m m-0">Sortware-engineer</p>                                 
+                                <p class="fs-14 text-worksans-l color-gray-light m-0">Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                        <div class="content-card p-3 text-worksans-l fs-14">
+                            <p class=" mb-1"><img class="me-2" src="../assets/image/list-company/building.png" alt="">Information Technology</p>
+                            <p class="color-blue mb-1"><img class="me-2" src="../assets/image/list-company/gps.png" alt="">4 vị trí đang tuyển</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-inf-company my-3">
+                    <div class="card p-4">
+                        <div class="title-card d-flex">
+                            <div class="img-company">
+                                <img class="w-100" src="../assets/image/list-job/fpt-software-tuyen.png" alt="">
+                            </div>
+                            <div class="title-post ms-3 col-8">
+                                <p class="fs-6 text-roboto-m m-0">Sortware-engineer</p>                                 
+                                <p class="fs-14 text-worksans-l color-gray-light m-0">Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                        <div class="content-card p-3 text-worksans-l fs-14">
+                            <p class=" mb-1"><img class="me-2" src="../assets/image/list-company/building.png" alt="">Information Technology</p>
+                            <p class="color-blue mb-1"><img class="me-2" src="../assets/image/list-company/gps.png" alt="">4 vị trí đang tuyển</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-inf-company my-3">
+                    <div class="card p-4">
+                        <div class="title-card d-flex">
+                            <div class="img-company">
+                                <img class="w-100" src="../assets/image/list-job/fpt-software-tuyen.png" alt="">
+                            </div>
+                            <div class="title-post ms-3 col-8">
+                                <p class="fs-6 text-roboto-m m-0">Sortware-engineer</p>                                 
+                                <p class="fs-14 text-worksans-l color-gray-light m-0">Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                        <div class="content-card p-3 text-worksans-l fs-14">
+                            <p class=" mb-1"><img class="me-2" src="../assets/image/list-company/building.png" alt="">Information Technology</p>
+                            <p class="color-blue mb-1"><img class="me-2" src="../assets/image/list-company/gps.png" alt="">4 vị trí đang tuyển</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-inf-company my-3">
+                    <div class="card p-4">
+                        <div class="title-card d-flex">
+                            <div class="img-company">
+                                <img class="w-100" src="../assets/image/list-job/fpt-software-tuyen.png" alt="">
+                            </div>
+                            <div class="title-post ms-3 col-8">
+                                <p class="fs-6 text-roboto-m m-0">Sortware-engineer</p>                                 
+                                <p class="fs-14 text-worksans-l color-gray-light m-0">Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                        <div class="content-card p-3 text-worksans-l fs-14">
+                            <p class=" mb-1"><img class="me-2" src="../assets/image/list-company/building.png" alt="">Information Technology</p>
+                            <p class="color-blue mb-1"><img class="me-2" src="../assets/image/list-company/gps.png" alt="">4 vị trí đang tuyển</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-inf-company my-3">
+                    <div class="card p-4">
+                        <div class="title-card d-flex">
+                            <div class="img-company">
+                                <img class="w-100" src="../assets/image/list-job/fpt-software-tuyen.png" alt="">
+                            </div>
+                            <div class="title-post ms-3 col-8">
+                                <p class="fs-6 text-roboto-m m-0">Sortware-engineer</p>                                 
+                                <p class="fs-14 text-worksans-l color-gray-light m-0">Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                        <div class="content-card p-3 text-worksans-l fs-14">
+                            <p class=" mb-1"><img class="me-2" src="../assets/image/list-company/building.png" alt="">Information Technology</p>
+                            <p class="color-blue mb-1"><img class="me-2" src="../assets/image/list-company/gps.png" alt="">4 vị trí đang tuyển</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-inf-company my-3">
+                    <div class="card p-4">
+                        <div class="title-card d-flex">
+                            <div class="img-company">
+                                <img class="w-100" src="../assets/image/list-job/fpt-software-tuyen.png" alt="">
+                            </div>
+                            <div class="title-post ms-3 col-8">
+                                <p class="fs-6 text-roboto-m m-0">Sortware-engineer</p>                                 
+                                <p class="fs-14 text-worksans-l color-gray-light m-0">Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                        <div class="content-card p-3 text-worksans-l fs-14">
+                            <p class=" mb-1"><img class="me-2" src="../assets/image/list-company/building.png" alt="">Information Technology</p>
+                            <p class="color-blue mb-1"><img class="me-2" src="../assets/image/list-company/gps.png" alt="">4 vị trí đang tuyển</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <footer class="bg-web mt-5">
+        <div class="container">
+            <div class="row d-flex justify-content-between text-white text-noto-re text-md-start text-center">
+                <div class="introduce col-md-4 mt-3 pb-5">
+                    <div class="logo w-50 p-2 m-auto m-md-0">
+                        <img class="w-100" src="../assets/image/The Wall.png" alt="">
+                    </div>
+                    <p class="fs-14">
+                        The Wall là nền tảng tuyển dụng và phát triển sự nghiệp hàng đầu Châu Á dành cho các tài năng trẻ. Sứ mệnh của The Wall là giúp người trẻ khám phá và theo đuổi đam mê nghề nghiệp.
+                    </p>
+                    <div class="social-icon pt-4 d-flex justify-content-md-start justify-content-center">
+                        <img class="col-2" src="../assets/image/facebook.png" alt="">
+                        <img class="mx-5 col-2" src="../assets/image/linkedin-sign.png" alt="">
+                        <img class="col-2" src="../assets/image/twitter-sign.png" alt="">
+                    </div>
+                </div>
+                <div class="contact col-md-4 pt-5">
+                    <h3 class="fs-4">LIÊN HỆ</h3>
+                    <p class="fs-14">
+                        <strong>Địa chỉ:</strong> Tầng 6, Số 100, Đường Nguyễn Thị Minh Khai, Phường 06, Quận 3, Thành phố Hồ Chí Minh, Việt Nam
+                    </p>
+                    <p class="fs-14"><strong>Email:</strong> sales-vn@glints.com</p>
+                    <p class="fs-14"><strong>Hotline:</strong> (028) 7100 3030</p>
+                </div>
+                <div class="site-linking col-md-3 py-5">
+                    <h3 class="fs-4">CÁC TRANG LIÊN KẾT</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="">Cơ hội việc làm</a></li>
+                        <li><a href="">Danh sách công ty</a></li>
+                        <li><a href="">Vị trí ứng tuyển</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../assets/vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="../assets/javascript/header.js"></script>
+    <script src="../assets/vendor/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
