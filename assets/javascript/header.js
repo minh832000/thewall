@@ -6,7 +6,7 @@ jQuery(document).ready(function($){
             });
             $('.nav').hide();
             $('.icon-menu').show(100)
-            return false;
+        return false;
         });
         $('.icon-menu').click(function(){
             $('.nav').show();

@@ -1,0 +1,11 @@
+/* FOOTER */
+
+.social-icon img{
+    width:40px;
+}
+.site-linking ul li a{
+    color: #fff;
+    text-decoration:none;
+    font-size: 14px;
+    line-height: 35px
+}
