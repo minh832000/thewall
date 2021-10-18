@@ -7,6 +7,9 @@
 .input-sr:focus{
     outline:none;
 }
+.search input{
+    width: 90%;
+}
 .search-job input::placeholder{
     color: rgba(43, 49, 180, 0.53);
     font-size: 14px;
@@ -67,7 +70,7 @@
 .list-job{
     float: left;
     width: 70%;
-    height: 136vh;
+    height: 90vh;
 }
 .list-job-card{
     width: 50%;
