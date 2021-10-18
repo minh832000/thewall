@@ -47,7 +47,6 @@ header{
     .over {
         display:none !important;
     }
-    //reset sợ lỗi :v
 }
 @media(min-width: 992px) and (max-width:1199px){
     .row{

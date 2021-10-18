@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .m1 {
       margin: 10px;
@@ -19,23 +20,58 @@
       font-weight: 600
 }
 /*----font Noto sans-----*/
+=======
+/* ========== Add Fonts ========== */
+/*---- Noto Sans -----*/
+@font-face {
+      font-family: 'Noto Sans Bold';
+      src: url('../font/NotoSans/NotoSans-Bold.woff2') format('woff2'),
+           url('../font/NotoSans/NotoSans-Bold.woff') format('woff'),
+           url('../font/NotoSans/NotoSans-Bold.ttf') format('ttf');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Noto Sans Regular';
+      src: url('../font/NotoSans/NotoSans.woff2') format('woff2'),
+           url('../font/NotoSans/NotoSans.woff') format('woff'),
+           url('../font/NotoSans/NotoSans-Regular.ttf') format('ttf');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Noto Sans Bold Italic';
+      src: url('../font/NotoSans/NotoSans-BoldItalic.woff2') format('woff2'),
+           url('../font/NotoSans/NotoSans-BoldItalic.woff') format('woff'),
+           url('../font/NotoSans/NotoSans-BoldItalic.ttf') format('ttf');
+      font-weight: bold;
+      font-style: italic;
+      font-display: swap;
+}
+@font-face {
+      font-family: 'Noto Sans Italic';
+      src: url('../font/NotoSans/NotoSans-Italic.woff2') format('woff2'),
+           url('../font/NotoSans/NotoSans-Italic.woff') format('woff'),
+           url('../font/NotoSans/NotoSans-Italic.ttf') format('ttf');
+      font-weight: normal;
+      font-style: italic;
+      font-display: swap;
+}
+  
+      
+>>>>>>> 69863b610465620e7c2817ed3400266721a5c75e
 @font-face{
-      src:url(../font/NotoSans-Regular.ttf);
+      src: url(../font/NotoSans-Regular.ttf);
       font-family: NotoSans;
 }
+
 @font-face{
-      src:url(../font/NotoSans-Bold.ttf);
+      src: url(../font/NotoSans-Bold.ttf);
       font-family: NotoSansBold;
 }
-.text-noto-b{
-      font-family:NotoSansBold;
-}
-.text-noto-re{
-      font-family:NotoSans;
-}
-.clear{
-      clear: both;
-}
+
 
 /*----font Roboto-----*/
 @font-face{
@@ -69,4 +105,47 @@
 }
 .text-worksans-re{
       font-family: WorkSansRegular;
+}
+
+
+.m1 {
+      margin: 10px;
+}
+
+.bg-btn{
+      background: #71CFFF;
+}
+.bg-web{
+      background: #193549;
+}
+.fs-14{
+      font-size:14px;
+}
+.text-medium{
+      font-weight: 600
+}
+
+.text-noto-b{
+      font-family:NotoSansBold;
+}
+.text-noto-re{
+      font-family:NotoSans;
+}
+.clear{
+      clear: both;
+}
+
+/* ========== Custom Font Family ========== */
+/* ---------- Noto Sans ---------- */
+.font-NotoSans-Bold {
+      font-family: 'Noto Sans Bold';
+}
+.font-NotoSans-BoldItalic {
+      font-family: 'Noto Sans Bold Italic';
+}
+.font-NotoSans-Italic {
+      font-family: 'Noto Sans Italic';
+}
+.font-NotoSans-Regular {
+      font-family: 'Noto Sans Regular';
 }
