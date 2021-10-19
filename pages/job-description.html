@@ -75,7 +75,7 @@
             </div>
         </div>
     </header>
-    <div id="content">
+    <div id="content" class="overflow-hidden">
         <div class="container">
             <div class="inf-post border-bottom pb-5 d-flex">
                 <div class="img-company col-2">
@@ -90,14 +90,14 @@
                         <p class=" mb-1"><img class="me-2" src="../assets/image/portfolio.png" alt="">Full - time</p>
                     </div>
                     <p class="time-post fs-14"> <img src="../assets/image/clock.png" alt=""> Được đăng cách đây 10 ngày</p>
-                    <div class="btn-post d-flex">
-                        <div class="button-apply">
+                    <div class="btn-post justify-content-start row">
+                        <div class="button-apply col-lg-3 col-md-4 my-2">
                             <button class="bg-btn font-NotoSans-Bold fs-14 px-3 py-2 border-0">ỨNG TUYỂN NGAY</button>
                         </div>
-                        <div class="button-mark mx-3">
+                        <div class="button-mark col-lg-3 col-md-4 my-2">
                             <button class="bg-white font-NotoSans-Bold fs-14 px-3 py-1"> <img class="me-2" src="../assets/image/bookmark.png" alt=""> ĐÁNH DẤU</button>
                         </div>
-                        <div class="button-share">
+                        <div class="button-share col-lg-3 col-md-4 my-2">
                             <button class="bg-white font-NotoSans-Bold fs-14 px-3 py-1"><img class="me-2" src="../assets/image/share.png" alt=""> SHARE</button>
                         </div>
                     </div>
@@ -125,21 +125,74 @@
             </div>
             <div class="skill">
                 <h3 class="font-NotoSans-Bold fs-5">KỸ NĂNG BẮT BUỘC CÓ</h3>
-                <div class="skill-tag row row-cols-6 font-WorkSans-Regular">
-                    <div class="tag-item py-1">
+                <div class="skill-tag d-flex flex-wrap font-WorkSans-Regular">
+                    <div class="tag-item py-1 me-2">
                         <div class="tag text-center p-1">International Sales</div>
                     </div>
-                    <div class="tag-item my-1">
+                    <div class="tag-item my-1 me-2">
                         <div class="tag text-center p-1">international Marketing</div>
                     </div>
-                    <div class="tag-item my-1">
+                    <div class="tag-item my-1 me-2">
                         <div class="tag text-center p-1">International Sales</div>
                     </div>
                     
                 </div>
             </div>
+            <div class="introduce-company mt-5 p-5">
+                <h3 class="font-NotoSans-Bold fs-5">GIỚI THIỆU VỀ CÔNG TY</h3>
+                <div class="inf-post pb-5 d-flex">
+                    <div class="img-company col-2">
+                        <img class="w-100" src="../assets/image/line_icon_200_v3.jpg" alt="">
+                    </div>
+                    <div class="detail-comp col-10 ps-5">
+                        <div class="inf-company">
+                            <p class="name-company font-NotoSans-Bold color-blue mb-2">Line Corporation</p>
+                            <p class="fs-14 font-WorkSans-Light">Internet Company</p>
+                            <div class="web-img">
+                                <img class="w-100" src="../assets/image/world-wide-web.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>With the LINE messaging app as the cornerstone,LINE Corporation's business encompasses development and operation of a wide range of mobile-first services—including communication, content, and entertainment—and advertising, as well as new businesses in Fintech, AI, and other domains. Under its corporate mission of "Closing the Distance," LINE Corporation strives to bring people around the world closer to each other, to information, and to services. </p>
+            </div>
         </div>
     </div>
+    <footer class="bg-web mt-5">
+        <div class="container">
+            <div class="row d-flex justify-content-between text-white text-noto-re text-md-start text-center">
+                <div class="introduce col-md-4 mt-3 pb-5">
+                    <div class="logo w-50 p-2 m-auto m-md-0">
+                        <img class="w-100" src="../assets/image/The Wall.png" alt="">
+                    </div>
+                    <p class="fs-14">
+                        The Wall là nền tảng tuyển dụng và phát triển sự nghiệp hàng đầu Châu Á dành cho các tài năng trẻ. Sứ mệnh của The Wall là giúp người trẻ khám phá và theo đuổi đam mê nghề nghiệp.
+                    </p>
+                    <div class="social-icon pt-4 d-flex justify-content-md-start justify-content-center">
+                        <img class="col-2" src="../assets/image/facebook.png" alt="">
+                        <img class="mx-5 col-2" src="../assets/image/linkedin-sign.png" alt="">
+                        <img class="col-2" src="../assets/image/twitter-sign.png" alt="">
+                    </div>
+                </div>
+                <div class="contact col-md-4 pt-5">
+                    <h3 class="fs-4">LIÊN HỆ</h3>
+                    <p class="fs-14">
+                        <strong>Địa chỉ:</strong> Tầng 6, Số 100, Đường Nguyễn Thị Minh Khai, Phường 06, Quận 3, Thành phố Hồ Chí Minh, Việt Nam
+                    </p>
+                    <p class="fs-14"><strong>Email:</strong> sales-vn@glints.com</p>
+                    <p class="fs-14"><strong>Hotline:</strong> (028) 7100 3030</p>
+                </div>
+                <div class="site-linking col-md-3 py-5">
+                    <h3 class="fs-4">CÁC TRANG LIÊN KẾT</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="">Cơ hội việc làm</a></li>
+                        <li><a href="">Danh sách công ty</a></li>
+                        <li><a href="">Vị trí ứng tuyển</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="../assets/vendor/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
     <script src="../assets/vendor/jquery/jquery-3.6.0.min.js"></script>
     <script src="../assets/javascript/header.js"></script>
