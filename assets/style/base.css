@@ -19,3 +19,8 @@
 .clear{
       clear: both;
 }
+
+.mx-120 {
+      margin-left: 120px;
+      margin-right: 120px;
+}
