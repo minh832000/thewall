@@ -1,0 +1,40 @@
+.accordion-button::after{
+    background-image: url(../image/down-arrow.png);
+    margin-left: 6px;
+    
+}
+.control-user{
+    width: 30%;
+    padding:0;
+}
+.dropdown{
+
+    width: 200px;
+    top: 110%;
+    right:0;
+    box-shadow: 2px 2px 6px #a7a7a7;
+}
+.dropdown li a{
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+}
+.dropdown li{
+    padding: 6px 14px;
+}
+.dropdown li:hover{
+    background: #BFE9FF;
+}
+@media (max-width: 767px){
+    .control-user{
+        width: 50%;
+    }
+    .dropdown{
+        width: 300px;
+        top: 110%;
+        right:0;
+        box-shadow: 2px 2px 6px #a7a7a7;
+    }
+    
+}
+
