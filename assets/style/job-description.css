@@ -1,24 +1,4 @@
-.accordion-button::after{
-    background-image: url(../image/down-arrow.png);
-    margin-left: 6px;
-    
-}
-.control-user{
-    width: 30%;
-    padding:0;
-}
-.dropdown{
 
-    width: 200px;
-    top: 110%;
-    right:0;
-    box-shadow: 2px 2px 6px #a7a7a7;
-}
-.dropdown li a{
-    text-decoration: none;
-    color: #000;
-    line-height: 30px;
-}
 .img-company{
     width: 90px;
 }
@@ -27,9 +7,6 @@
 }
 .main-inf img{
     width: 18px;
-}
-.color-blue{
-    color: #0037FB
 }
 .main-inf{
     height: 13rem
