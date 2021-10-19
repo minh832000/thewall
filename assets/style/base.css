@@ -241,6 +241,12 @@
 .bg-web{
       background: #193549;
 }
+.color-blue{
+      color: #0037FB
+}
+.color-gray{
+      color: #626262;
+}
 .fs-14{
       font-size:14px;
 }
