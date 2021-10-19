@@ -7,6 +7,7 @@
 header{
     background: #193549;
     z-index:1000;
+    filter: drop-shadow(3px 4px 6px rgba(25, 53, 73, 0.45));
 }
 .header{
     height:60px
