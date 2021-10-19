@@ -41,12 +41,22 @@ header{
     opacity: 0.8;
     z-index: 99;
 }
+.for-user{
+    display:none;
+}
 .icon-notify{
     width: 25px;
 }
 .img-user{
     width: 65px;
 }
+.dropdown li{
+    padding: 6px 14px;
+}
+.dropdown li:hover{
+    background: #BFE9FF;
+}
+
 @media(min-width:768px){
     .over {
         display:none !important;
@@ -134,5 +144,13 @@ header{
     .nav-menu ul{
         padding-left:0 !important;
     }
-    
+    .control-user{
+        width: 50%;
+    }
+    .dropdown{
+        width: 300px;
+        top: 110%;
+        right:0;
+        box-shadow: 2px 2px 6px #a7a7a7;
+    }
 }
