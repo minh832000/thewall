@@ -1,3 +1,16 @@
+* {
+      margin: 0;
+      box-sizing: border-box;
+}
+
+body {
+      font-size: 14px;
+}
+
+a {
+      text-decoration: none;
+      color: #fff;
+}
 
 .m1 {
       margin: 10px;
@@ -23,4 +36,12 @@
 .mx-120 {
       margin-left: 120px;
       margin-right: 120px;
+}
+
+.ms-120 {
+      margin-left: 120px;
+}
+
+.ms-40 {
+      margin-left: 40px;
 }
