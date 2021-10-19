@@ -50,7 +50,9 @@ header{
 }
 .img-user{
     width: 65px;
+    --bs-gutter-x:1.5rem;
 }
+
 .dropdown li{
     padding: 6px 14px;
 }
@@ -62,18 +64,22 @@ header{
     .over {
         display:none !important;
     }
+    
 }
 @media(min-width: 992px) and (max-width:1199px){
     .row{
         padding:0
     }
     
+    
 }
 @media(min-width: 768px) and (max-width:991px){
     .row{
         --bs-gutter-x:0
     }
-    
+    .control-user{
+        width: 50% !important;
+    }
     .name{
         font-size:14px !important;
     }
@@ -92,6 +98,9 @@ header{
 @media (max-width: 767px){
     .name{
         font-size:14px;
+    }
+    .control-user{
+        width: 50% !important;
     }
     .nav{
         display:none;
@@ -145,13 +154,13 @@ header{
     .nav-menu ul{
         padding-left:0 !important;
     }
-    .control-user{
-        width: 50%;
-    }
     .dropdown{
         width: 300px;
         top: 110%;
         right:0;
         box-shadow: 2px 2px 6px #a7a7a7;
+    }
+    .accordion-button {
+        padding: 1rem 0.25rem;
     }
 }
