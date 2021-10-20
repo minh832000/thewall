@@ -1,0 +1,88 @@
+p{
+    margin: 0;
+}
+#content{
+    margin: 8rem auto;
+}
+
+.img-profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.name h3{
+    line-height: 100px;
+}
+.basic-inf h3,
+.inf-item h3{
+    border-bottom: #000 1px solid;
+}
+.basic-inf{
+    background: #EBEBEB;
+}
+#btn-edit{
+    width: 15px;
+    cursor:pointer;
+    right: 0;
+}
+.add-edit img{
+    width: 16px;
+    height: 16px;
+
+}
+.add-edit p{
+    color: #71CFFF;
+    line-height: 16px;
+    cursor:pointer;
+}
+.add-edit {
+    margin-top: 30px
+
+}
+.information{
+    margin-left:5%;
+}
+@media (min-width: 1199px){
+    .frame{
+        width:10%;
+    }
+}
+@media (max-width: 1199px){
+    .information{
+        margin-left: 0rem;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px){
+    .inf-content p{
+        font-size: 13px;
+    }
+    
+}
+@media (max-width: 576px){
+    .img-profile{
+        width: 200px;
+        height: 200px;
+    }
+}
+/* bảng cập nhật thông tin*/
+.frame-update-inf{
+    width: 500px;
+    top: 30%;
+    left: calc(50% - 250px);
+}
+.i-close{
+    width: 15px;
+    right: 16px;
+    top: 15px;
+}
+.img-profile-edt{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+fieldset{
+    border: 1px solid #979797;
+}
+fieldset input:focus{
+    outline: none;
+}
