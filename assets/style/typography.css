@@ -426,3 +426,8 @@
 .font-Roboto-ThinItalic {
       font-family: 'Roboto Thin Italic';
 }
+/* ========== End Custom Font Family ========== */
+
+.text-justify {
+      text-align: justify;
+}
