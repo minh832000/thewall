@@ -12,6 +12,12 @@ a {
       color: #fff;
 }
 
+p {
+      margin: 0;
+      padding: 0;
+      margin-block: 0;
+}
+
 .m1 {
       margin: 10px;
 }
@@ -82,6 +88,8 @@ a {
 .mt-80 {
       margin-top: 80px;
 }
+
+
 
 .text-gray {
       color: #626262;
