@@ -17,6 +17,7 @@
       <!-- Template CSS Files -->
       <link href="../../assets/style/typography.css" rel="stylesheet">
       <link href="../../assets/style/base.css" rel="stylesheet">
+      <link href="../../assets/style/manage-post.css" rel="stylesheet">
 
 </head>
 <body>
@@ -62,15 +63,71 @@
       <!-- ================ Main Content =============== -->
       <div id="main" class="mt-80">
             <h1 class="text-uppercase font-NotoSans-Bold text-center fs-4">Quản lý bài đăng của bạn</h1>
-            <div class="container-fluid px-0 mx-120">
+            <div class="container-fluid px-0 mx-120 mt-40">
                   <div class="d-flex align-items-center">
-                        <div class="d-flex align-items-center border">
-                              <i class="icofont-search"></i>
-                              <input type="text" class="border-0">
+                        <div class="search-box">
+                              <input 
+                                    type="text" 
+                                    class="search-input"
+                                    placeholder="Tìm kiếm bài tuyển dụng"
+                              >
+                              <button
+                                    type="submit"
+                                    class="text-center search-button"
+                              >
+                                    <i class="icofont-search"></i>
+
+                              </button>
                         </div>
-                        <div>
-                              <span class="text-uppercase font-NotoSans-Bold bg-btn py-2 px-4">Thêm bài đăng mới</span>
+                        <div class="ms-5">
+                              <button 
+                                    class="btn bg-btn text-uppercase font-NotoSans-Bold" 
+                                    type="button"
+                                    style="font-size: 14px;"
+                              >
+                                    Thêm bài đăng mới
+                              </button>
                         </div>
+                  </div>
+            </div>
+            <div class="container px-0 mx-120 mt-40">
+                  <div class="wrapper">
+                        <div class="d-flex">
+                              <div class="logo-company">
+                                    <img src="../../assets/image/horror.png" alt="">
+                              </div>  
+                              <div class="ms-40">
+                                    <p class="font-NotoSans-Bold fs-5">Front-end Software Engineer</p>
+                                    <span class="font-WorkSans-Medium">VNG Group</span>
+                                    <div class="mt-40 post-basic-information">
+                                          <div class="information-field">
+                                                <div class="label"> 
+                                                      <p class="font-NotoSans-Bold">Địa điểm tuyển dụng</p>
+                                                </div>
+                                                <div class="value">
+                                                      <p>Thành phố Hồ Chí Minh</p>
+                                                </div>
+                                          </div>
+                                          <div class="information-field">
+                                                <div class="label"> 
+                                                      <p class="font-NotoSans-Bold">Mức lương đề xuất</p>
+                                                </div>
+                                                <div class="value">
+                                                      <p>USD 1.000 - 2.000</p>
+                                                </div>
+                                          </div>
+                                          <div class="information-field">
+                                                <div class="label"> 
+                                                      <p class="font-NotoSans-Bold">Kinh nghiệm yêu cầu</p>
+                                                </div>
+                                                <div class="value">
+                                                      <p>Từ 16 năm kinh nghiệm</p>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        
                   </div>
             </div>
       </div>
