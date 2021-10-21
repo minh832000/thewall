@@ -76,11 +76,11 @@
             </div>
         </div>
     </header>
-    <div id="content" class="d-none">
+    <div id="content" class="">
         <div class="container">
             <h1 class=" font-NotoSans-Bold text-center my-5">HỒ SƠ CỦA BẠN</h1>
             <div class="name row text-center text-sm-start">
-                <div class="frame col-sm-3 col-12 ">
+                <div class="frame-img col-sm-3 col-12 ">
                     <div class="img-profile  overflow-hidden m-auto me-sm-2">
                         <img class="w-100" src="../assets/image/profile.jpg" alt="">
                     </div>
@@ -147,7 +147,7 @@
                     <div class="inf-item pb-5">
                         <h3 class="fs-5 font-NotoSans-Bold pb-2 position-relative">TRÌNH ĐỘ HỌC VẤN</h3>
                         <p class="text-center font-WorkSans-Regular fs-6 py-3 color-gray">Hãy giúp nhà tuyển dụng hiểu rõ hơn về bạn. Thông tin về quá trình học vấn sẽ giúp tăng cơ hội phỏng vấn của bạn đến 23%.</p>
-                        <div class="add-edit justify-content-center d-flex">
+                        <div class="add-edit justify-content-center d-flex" id="add-edit-4">
                             <img class="me-2" src="../assets/image/plus.png" alt="">
                             <p class="font-NotoSans-Bold fs-14">THÊM TRÌNH ĐỘ HỌC VẤN</p>
                         </div>
@@ -155,7 +155,7 @@
                     <div class="inf-item pb-5">
                         <h3 class="fs-5 font-NotoSans-Bold pb-2 position-relative">KỸ NĂNG CHUYÊN MÔN</h3>
                         <p class="text-center font-WorkSans-Regular fs-6 py-3 color-gray">Nêu ra các kỹ năng giúp ích cho vị trí ứng tuyển</p>
-                        <div class="add-edit justify-content-center d-flex">
+                        <div class="add-edit justify-content-center d-flex" >
                             <img class="me-2" src="../assets/image/plus.png" alt="">
                             <p class="font-NotoSans-Bold fs-14">THÊM KỸ NĂNG CHUYÊN MÔN</p>
                         </div>
@@ -163,7 +163,7 @@
                     <div class="inf-item pb-5">
                         <h3 class="fs-5 font-NotoSans-Bold pb-2 position-relative">KINH NGHIỆM LÀM VIỆC</h3>
                         <p class="text-center font-WorkSans-Regular fs-6 py-3 color-gray">77,9% nhà tuyển dụng được khảo sát coi kinh nghiệm làm việc là dữ liệu quan trọng trong các trong các hồ sơ ứng tuyển. </p>
-                        <div class="add-edit justify-content-center d-flex">
+                        <div class="add-edit justify-content-center d-flex" id="add-edit-3">
                             <img class="me-2" src="../assets/image/plus.png" alt="">
                             <p class="font-NotoSans-Bold fs-14">THÊM KINH NGHIỆM LÀM VIỆC</p>
                         </div>
@@ -199,102 +199,212 @@
     <!--kết thúc giao diện chính-->
     <!--Các bảng chỉnh sửa thông tin-->
     <!--bảng Thông tin cơ bản-->
-    <div class="frame-update-inf card position-absolute" id="frame-1">
-        <h3 class="fs-5 font-NotoSans-Bold border-bottom p-3 mt-3 position-relative">
-            THÔNG TIN CƠ BẢN 
-            <img class="i-close position-absolute" src="../assets/image/cancel.png" alt="">
-        </h3>
-        <div class="img-profile-edt overflow-hidden m-auto position-relative">
-            <img class="w-100" src="../assets/image/profile.jpg" alt="">
-            <img class="edt-img-user position-absolute " src="../assets/image/draw.png" alt="">
-            <div class="position-absolute bg-opacity w-100 h-100"></div>
+    <div class="frame" id="frame-1">
+        <div class="frame-update-inf card position-absolute">
+            <h3 class="fs-5 font-NotoSans-Bold border-bottom p-3 mt-3 position-relative">
+                THÔNG TIN CƠ BẢN 
+                <img class="i-close position-absolute" src="../assets/image/cancel.png" alt="">
+            </h3>
+            <div class="img-profile-edt overflow-hidden m-auto position-relative">
+                <img class="w-100" src="../assets/image/profile.jpg" alt="">
+                <img class="edt-img-user position-absolute " src="../assets/image/draw.png" alt="">
+                <div class="position-absolute bg-opacity w-100 h-100"></div>
+            </div>
+            <form action="." class="p-3 border-bottom">
+                <fieldset class="mx-3 px-3 pb-2 my-3">
+                    <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Họ và tên</legend>
+                    <input class="border-0 font-NotoSans-Regular fs-6" type="text">
+                </fieldset>
+                <fieldset class="mx-3 px-3 pb-2 my-3">
+                    <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Email</legend>
+                    <input class="border-0 font-NotoSans-Regular fs-6" type="email">
+                </fieldset>
+                <fieldset class="mx-3 px-3 pb-2 my-3">
+                    <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Số điện thoại</legend>
+                    <input class="border-0 font-NotoSans-Regular fs-6" type="text">
+                </fieldset>
+                <fieldset class="mx-3 px-3 pb-2 my-3">
+                    <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Địa chỉ</legend>
+                    <input class="border-0 font-NotoSans-Regular fs-6" type="text">
+                </fieldset>
+                <p class="px-3 fs-6 color-gray">Ngày sinh</p>
+                <div class="d-grid birthday">
+                    <fieldset class="mx-3 px-3 pb-2 my-3">
+                        <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Ngày</legend>
+                        <select class="w-100 border-0" name="" id="day">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="mx-3 px-3 pb-2 my-3">
+                        <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Tháng</legend>
+                        <select class="w-100 border-0" name="" id="month">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="mx-3 px-3 pb-2 my-3">
+                        <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Năm</legend>
+                        <select class="w-100 border-0" name="" id="year">
+                            <option value="">2001</option>
+                            <option value="">2002</option>
+                            <option value="">2003</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <p class="px-3 fs-6 color-gray">Giới tính</p>
+                <fieldset class="border-0 px-3 py-4 row row-cols-2">
+                    <div class="">
+                        <input type="radio" name="gender" id="male"> 
+                        <label for="female" class="fs-6 ms-2">Nam</label>
+                    </div>
+                    <div class="">
+                        <input class="" type="radio" name="gender" id="female">
+                        <label class="fs-6 ms-2" for="female">Nữ</label>
+                    </div>
+                </fieldset>
+                <div class="btn-form font-NotoSans-Bold text-end pe-4 border-top py-3 fs-14">
+                    <button class="btn-cancel btn border px-3 me-3">HỦY</button>
+                    <button type="submit" class="btn bg-btn px-3">LƯU</button>
+                </div>
+            </form>
         </div>
-        <form action="." class="p-3 border-bottom">
-            <fieldset class="mx-3 px-3 pb-2 my-3">
-                <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Họ và tên</legend>
-                <input class="border-0 font-NotoSans-Regular fs-6" type="text">
-            </fieldset>
-            <fieldset class="mx-3 px-3 pb-2 my-3">
-                <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Email</legend>
-                <input class="border-0 font-NotoSans-Regular fs-6" type="email">
-            </fieldset>
-            <fieldset class="mx-3 px-3 pb-2 my-3">
-                <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Số điện thoại</legend>
-                <input class="border-0 font-NotoSans-Regular fs-6" type="text">
-            </fieldset>
-            <fieldset class="mx-3 px-3 pb-2 my-3">
-                <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Địa chỉ</legend>
-                <input class="border-0 font-NotoSans-Regular fs-6" type="text">
-            </fieldset>
-            <p class="px-3 fs-6 color-gray">Ngày sinh</p>
-            <div class="d-grid birthday">
-                <fieldset class="mx-3 px-3 pb-2 my-3">
-                    <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Ngày</legend>
-                    <select class="w-100 border-0" name="" id="day">
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                    </select>
-                </fieldset>
-                <fieldset class="mx-3 px-3 pb-2 my-3">
-                    <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Tháng</legend>
-                    <select class="w-100 border-0" name="" id="month">
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                    </select>
-                </fieldset>
-                <fieldset class="mx-3 px-3 pb-2 my-3">
-                    <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Năm</legend>
-                    <select class="w-100 border-0" name="" id="year">
-                        <option value="">2001</option>
-                        <option value="">2002</option>
-                        <option value="">2003</option>
-                    </select>
-                </fieldset>
-            </div>
-            <p class="px-3 fs-6 color-gray">Giới tính</p>
-            <fieldset class="border-0 px-3 py-4 row row-cols-2">
-                <div class="">
-                    <input type="radio" name="gender" id="male"> 
-                    <label for="female" class="fs-6 ms-2">Nam</label>
-                </div>
-                <div class="">
-                    <input class="" type="radio" name="gender" id="female">
-                    <label class="fs-6 ms-2" for="female">Nữ</label>
-                </div>
-            </fieldset>
-            <div class="btn-form font-NotoSans-Bold text-end pe-4 border-top py-3 fs-14">
-                <button class="btn-cancel btn border px-3 me-3">HỦY</button>
-                <button type="submit" class="btn bg-btn px-3">LƯU</button>
-            </div>
-        </form>
-
     </div>
     <!--Bảng Thông tin chung-->
-    <div class="general-inf frame-update-inf bg-white position-absolute" id="frame-2">
-        <h3 class="fs-5 font-NotoSans-Bold border-bottom p-3 mt-3 position-relative">
-            THÔNG TIN CHUNG
-            <img class="i-close position-absolute" src="../assets/image/cancel.png" alt="">
-        </h3>
-        <p class="font-WorkSans-Regular fs-14 mx-3">Giới thiệu về bản thân mình để Nhà tuyển dụng hiểu bạn hơn</p>
-        <form action="" class="px-3">
-            <textarea class="w-100 font-WorkSans-Regular my-3 p-2" placeholder="Thêm phần giới thiệu về bản thân bạn" name="" id="" cols="30" rows="5"></textarea>
-            <div class="btn-form font-NotoSans-Bold text-end pe-4 border-top py-3 fs-14">
-                <button class="btn-cancel btn border px-3 me-3">HỦY</button>
-                <button type="submit" class="btn bg-btn px-3">LƯU</button>
-            </div>
-        </form>
+    <div class="frame" id="frame-2">
+        <div class="general-inf frame-update-inf bg-white position-absolute">
+            <h3 class="fs-5 font-NotoSans-Bold border-bottom p-3 mt-3 position-relative">
+                THÔNG TIN CHUNG
+                <img class="i-close position-absolute" src="../assets/image/cancel.png" alt="">
+            </h3>
+            <p class="font-WorkSans-Regular fs-14 mx-3">Giới thiệu về bản thân mình để Nhà tuyển dụng hiểu bạn hơn</p>
+            <form action="" class="px-3">
+                <textarea class="w-100 font-WorkSans-Regular my-3 p-2" placeholder="Thêm phần giới thiệu về bản thân bạn" name="" id="" cols="30" rows="5"></textarea>
+                <div class="btn-form font-NotoSans-Bold text-end pe-4 border-top py-3 fs-14">
+                    <button class="btn-cancel btn border px-3 me-3">HỦY</button>
+                    <button type="submit" class="btn bg-btn px-3">LƯU</button>
+                </div>
+            </form>
+        </div>
     </div>
     <!--Bảng Kinh nghiệm làm việc-->
-    <div class="general-inf frame-update-inf bg-white position-absolute d-block card" id="frame-3">
-        <h3 class="fs-5 font-NotoSans-Bold border-bottom p-3 mt-3 position-relative">
-            KINH NGHIỆM LÀM VIỆC
-            <img class="i-close position-absolute" src="../assets/image/cancel.png" alt="">
-        </h3>
-        <form action="">
-            <input type="text" name="title" placeholder="Chức danh">
-        </form>
+    <div class="frame" id="frame-3">
+        <div class="frame-update-inf bg-white card">
+            <h3 class="fs-5 font-NotoSans-Bold border-bottom p-3 mt-3 position-relative">
+                KINH NGHIỆM LÀM VIỆC
+                <img class="i-close position-absolute" src="../assets/image/cancel.png" alt="">
+            </h3>
+            <form action="." class="p-3 border-bottom">
+                <input class="w-100 mx-1 p-2 mb-3" type="text" name="title" placeholder="Chức danh">
+                <input class="w-100 mx-1 p-2 mb-3" type="text" name="company" placeholder="Công ty">
+                <p class="ps-1 fs-6 ">Ngày bắt đầu</p>
+                <div class="day-start px-3 gap-2 row d-grid">
+                    <fieldset class="px-3 pb-2 my-3">
+                        <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Tháng</legend>
+                        <select class="w-100 border-0" name="" id="month">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="px-3 pb-2 my-3">
+                        <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Năm</legend>
+                        <select class="w-100 border-0" name="" id="year">
+                            <option value="">2001</option>
+                            <option value="">2002</option>
+                            <option value="">2003</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <p class="ps-1 fs-6 ">Ngày két thúc</p>
+                <div class="day-start px-3 gap-2 row d-grid">
+                    <fieldset class="px-3 pb-2 my-3">
+                        <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Tháng</legend>
+                        <select class="w-100 border-0" name="" id="month">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="px-3 pb-2 my-3">
+                        <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Năm</legend>
+                        <select class="w-100 border-0" name="" id="year">
+                            <option value="">2001</option>
+                            <option value="">2002</option>
+                            <option value="">2003</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <input class="ms-1" type="checkbox" name="learning" id=""> 
+                <label for="learning">Tôi hiện đang theo học</label>
+
+                <div class="mt-4 btn-form font-NotoSans-Bold text-end pe-4 border-top py-3 fs-14">
+                    <button class="btn-cancel btn border px-3 me-3">HỦY</button>
+                    <button type="submit" class="btn bg-btn px-3">LƯU</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--Bảng Trình độ học vấn-->
+    <div class="frame" id="frame-4">
+        <div class="frame-update-inf bg-white card">
+            <h3 class="fs-5 font-NotoSans-Bold border-bottom p-3 mt-3 position-relative">
+                TRÌNH ĐỘ HỌC VẤN
+                <img class="i-close position-absolute" src="../assets/image/cancel.png" alt="">
+            </h3>
+            <form action="." class="p-3 border-bottom">
+                <input class="w-100 mx-1 p-2 mb-3" type="text" name="title" placeholder="Tổ chức">
+                <input class="w-100 mx-1 p-2 mb-3" type="text" name="company" placeholder="Trình độ">
+                <input class="w-100 mx-1 p-2 mb-3" type="text" name="company" placeholder="Chuyên ngành">
+                <p class="ps-1 fs-6 ">Ngày bắt đầu</p>
+                <div class="day-start px-3 gap-2 row d-grid">
+                    <fieldset class="px-3 pb-2 my-3">
+                        <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Tháng</legend>
+                        <select class="w-100 border-0" name="" id="month">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="px-3 pb-2 my-3">
+                        <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Năm</legend>
+                        <select class="w-100 border-0" name="" id="year">
+                            <option value="">2001</option>
+                            <option value="">2002</option>
+                            <option value="">2003</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <p class="ps-1 fs-6 ">Ngày két thúc</p>
+                <div class="day-start px-3 gap-2 row d-grid">
+                    <fieldset class="px-3 pb-2 my-3">
+                        <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Tháng</legend>
+                        <select class="w-100 border-0" name="" id="month">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="px-3 pb-2 my-3">
+                        <legend class="fs-14 float-none w-auto px-2 font-NotoSans-Regular color-gray">Năm</legend>
+                        <select class="w-100 border-0" name="" id="year">
+                            <option value="">2001</option>
+                            <option value="">2002</option>
+                            <option value="">2003</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <input class="ms-1" type="checkbox" name="working" id=""> 
+                <label for="working">Tôi hiện đang làm việc cho công ty này</label>
+                <textarea class="w-100 font-WorkSans-Regular my-3 p-2" placeholder="Thông tin bổ sung" name="" id="" cols="30" rows="5"></textarea>
+                <div class="mt-4 btn-form font-NotoSans-Bold text-end pe-4 border-top py-3 fs-14">
+                    <button class="btn-cancel btn border px-3 me-3">HỦY</button>
+                    <button type="submit" class="btn bg-btn px-3">LƯU</button>
+                </div>
+            </form>
+        </div>
     </div>
     <!--kết thúc phần bảng thông tin-->
     <footer class="bg-web mt-5 d-none">

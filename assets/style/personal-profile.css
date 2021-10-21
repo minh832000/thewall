@@ -43,7 +43,7 @@ p{
     margin-left:5%;
 }
 @media (min-width: 1199px){
-    .frame{
+    .frame-img{
         width:10%;
     }
 }
@@ -65,12 +65,28 @@ p{
     }
 }
 /* bảng cập nhật thông tin*/
+.frame{
+    visibility: visible;
+    position: fixed;
+    -webkit-box-pack: center;
+    inset: 0px;
+    overflow:auto;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: all 0.2s ease-in 0s;
+    display: none;
+    top: 10%;
+    left: calc(50% - 250px);
+    z-index: 10;
+    width: 500px;
+}
+.frame::-webkit-scrollbar { 
+    display: none; 
+}
 .frame-update-inf{
     width: 500px;
-    top: 30%;
+    top: 15%;
     left: calc(50% - 250px);
-    display: none;
-    z-index: 100;
 }
 .i-close{
     width: 15px;
@@ -88,13 +104,17 @@ fieldset{
 fieldset input[type='text']{
     width: 100%
 }
+fieldset select:focus{
+    outline: none
+}
 fieldset input:focus,
-fieldset select:focus,
-textarea:focus{
-    box-shadow: 0 0 4px #71CFFF;
+textarea:focus,
+input[type='text']:focus
+{
+    box-shadow: 0 0 10px rgba(102, 102, 102, 0.2);
     outline:none;
 }
-.birthday{
+.d-grid{
     grid-auto-flow: column;
 }
 .btn-form button{
@@ -112,7 +132,7 @@ textarea:focus{
     width: 100%;
     height: 100%;
     opacity: 0.8;
-    z-index: 99;
+    z-index: 9;
 }
 .bg-opacity {
     background: #000;
@@ -136,4 +156,8 @@ textarea{
 }
 textarea::placeholder{
     font-style: italic;
+}
+input[type='text']{
+    border-radius: 6px;
+    border: 1px solid rgba(102, 102, 102, 0.6);
 }
