@@ -96,3 +96,12 @@
       padding-top: 7px;
       padding-bottom: 7px;
 }
+.list-selected-skills span{
+      border: #c5c5c5 1px solid;
+      border-radius: 20px;
+      background: #ECECEC;
+}
+input:focus,
+textarea:focus{
+      outline: none;
+}

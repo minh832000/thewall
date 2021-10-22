@@ -127,7 +127,7 @@
 
                   <div class="dividing-line"></div>
 
-                  <div class="input-details">
+                  <div class="input-details border-bottom pb-5">
                         <!-- Heading Field -->
                         <p class="font-NotoSans-Bold fs-6 text-uppercase">Thông tin chi tiết</p>
                         <div class="mt-3">
@@ -138,50 +138,101 @@
                               <p class="font-WorkSans-Regular">Kỹ năng yêu cầu</p>
                               <div class="input-required-skills">
                                     <div class="input-column search-skills">
-                                          <input 
+                                          <input
                                                 type="text"
+                                                class=" height-45 w-100 border px-2 my-3"
                                                 placeholder="Nhập kỹ năng cần tìm kiếm"
                                                 class="search-input"
                                           >
                                           <div class="skill-suggestions">
-                                                <ul class="list-group list-unstyle">
-                                                      <li class="list-group-item">
-                                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                                        First checkbox
-                                                      </li>
-                                                      <li class="list-group-item">
-                                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                                        Second checkbox
-                                                      </li>
-                                                      <li class="list-group-item">
-                                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                                        Third checkbox
-                                                      </li>
-                                                      <li class="list-group-item">
-                                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                                        Fourth checkbox
-                                                      </li>
-                                                      <li class="list-group-item">
-                                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                                                        Fifth checkbox
-                                                      </li>
-                                                    </ul>
-                                                
+                                                <div class="list-skill row row-cols-2 font-NotoSans-Regular">
+                                                      <div class="py-3">
+                                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                            First checkbox
+                                                      </div>
+                                                      <div class="py-3">
+                                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                            Second checkbox
+                                                      </div>
+                                                      <div class="py-2">
+                                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                            third checkbox
+                                                      </div>
+                                                      <div class="py-2">
+                                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                            Fourth checkbox
+                                                      </div>
+                                                      <div class="py-2">
+                                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                            First checkbox
+                                                      </div>
+                                                      <div class="py-2">
+                                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                            Second checkbox
+                                                      </div>
+                                                      <div class="py-2">
+                                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                            third checkbox
+                                                      </div>
+                                                      <div class="py-2">
+                                                            <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                            Fourth checkbox
+                                                      </div>
+                                                </div>
                                           </div> 
                                     </div>
                                     <div class="input-column selected-skills">
-                                          <p class="font-WorkSans-SemiBold">Những kỹ năng đã chọn</p>
-                                          <ul class="list-selected-skills">
-                                                <li class="item-selected-skill">html</li>
-                                                <li class="item-selected-skill">css</li>
-                                                <li class="item-selected-skill">javascript</li>
-                                                <li class="item-selected-skill">jquery</li>
-                                          </ul>
+                                          <p class="font-WorkSans-Regular">Những kỹ năng đã chọn</p>
+                                          <div class="list-selected-skills d-flex flex-wrap">
+                                                <span class="px-3 py-1">HTML</span>
+                                                <span class="px-3 py-1">CSS</span>
+                                                <span class="px-3 py-1">PHP</span>
+                                                <span class="px-3 py-1">PYTHON</span>
+                                                <span class="px-3 py-1">Java</span>
+                                          </div>
                                     </div>
                               </div>
                         </div>
                   </div>
+                  <div class="btn-add-post text-end mt-5">
+                        <button class="px-4 py-2 bg-btn font-NotoSans-Bold fs-14 border-0 ">THÊM BÀI ĐĂNG MỚI</button>
+                  </div>
             </div>
       </div>
+      <footer class="bg-web mt-5">
+            <div class="container">
+                <div class="row d-flex justify-content-between text-white text-noto-re text-md-start text-center">
+                    <div class="introduce col-md-4 mt-3 pb-5">
+                        <div class="logo w-50 p-2 m-auto m-md-0">
+                            <img class="w-100" src="../assets/image/main-logo.png" alt="">
+                        </div>
+                        <p class="fs-14">
+                            The Wall là nền tảng tuyển dụng và phát triển sự nghiệp hàng đầu Châu Á dành cho các tài năng trẻ. Sứ mệnh của The Wall là giúp người trẻ khám phá và theo đuổi đam mê nghề nghiệp.
+                        </p>
+                        <div class="social-icon pt-4 d-flex justify-content-md-start justify-content-center">
+                            <img class="col-2" src="../assets/image/facebook.png" alt="">
+                            <img class="mx-5 col-2" src="../assets/image/linkedin-sign.png" alt="">
+                            <img class="col-2" src="../assets/image/twitter-sign.png" alt="">
+                        </div>
+                    </div>
+                    <div class="contact col-md-4 pt-5">
+                        <h3 class="fs-4">LIÊN HỆ</h3>
+                        <p class="fs-14">
+                            <strong>Địa chỉ:</strong> Tầng 6, Số 100, Đường Nguyễn Thị Minh Khai, Phường 06, Quận 3, Thành phố Hồ Chí Minh, Việt Nam
+                        </p>
+                        <p class="fs-14"><strong>Email:</strong> sales-vn@glints.com</p>
+                        <p class="fs-14"><strong>Hotline:</strong> (028) 7100 3030</p>
+                    </div>
+                    <div class="site-linking col-md-3 py-5">
+                        <h3 class="fs-4">CÁC TRANG LIÊN KẾT</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="">Cơ hội việc làm</a></li>
+                            <li><a href="">Danh sách công ty</a></li>
+                            <li><a href="">Vị trí ứng tuyển</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 </body>
 </html>
