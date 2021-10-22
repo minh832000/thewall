@@ -5,9 +5,183 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
-      <title>Document</title>
+      <title>Thêm bài đăng mới</title>
+
+      <!-- Favicons -->
+      <link rel="shortcut icon" type="image/x-icon" href="../../assets/image/logo.png">
+
+      <!-- Vendor CSS Files -->
+      <link href="../../assets/vendor/bootstrap-5.0.1-dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="../../assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+      <!-- Template CSS Files -->
+      <link href="../../assets/style/typography.css" rel="stylesheet">
+      <link href="../../assets/style/base.css" rel="stylesheet">
+      <link href="../../assets/style/add-new-post.css" rel="stylesheet">
+
 </head>
 <body>
-      
+      <!-- =============== Header =============== -->
+      <header class="container-fluid px-0 bg-web">
+            <div class="d-flex align-items-center py-2 mx-120 text-white">
+                  <a class="d-flex align-items-center text-decoration-none">
+                        <img src="../../assets/image/logo.png" alt="Logo The Wall" width="40px" height="40px">
+                        <span class="font-NotoSans-Bold ms-2" style="font-size: 14pt;">
+                              The Wall
+                              <span class="font-NotoSans-Regular d-block" style="font-size: 10pt;">
+                                    for Employers
+                              </span>
+                        </span>
+                  </a>
+
+                  <button class="d-lg-none d-block" type="button"> 
+                        <img src="../../assets/image/menu.png" alt="">
+                  </button>
+                  
+                  <div class="d-flex align-items-center font-NotoSans-Regular ms-auto me-0">
+                        <div class="text-uppercase">
+                              <a href="#">Bảng thông tin</a>
+                              <a href="#" class="ms-40">Quản lý ứng viên</a>
+                              <a href="#" class="ms-40">Quản lý đăng tuyển</a>
+                        </div>
+                        <div class="d-flex align-items-center ms-240">
+                              <div>
+                              <img src="../../assets/image/bell.png" alt="Notification" style="width:20px; height:20px;">  
+                              </div>
+                              <div class="ms-40 d-flex align-items-center">
+                                    <img src="../../assets/image/horror.png" width="40px" height="40px">
+                                    <span class="ms-2 font-NotoSans-Bold">Minh</span>
+                                    <span class="ms-1">
+                                          <i class="icofont-rounded-down"></i>
+                                    </span>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </header>
+      <!-- End Header -->
+      <!-- =============== Main Content =============== -->
+      <div id="main" class="my-120">
+            <!-- Title of Page -->
+            <h1 class="text-uppercase font-NotoSans-Bold text-center fs-4">Thêm bài đăng mới</h1>
+            <!-- Content of Page -->
+            <div class="container px-0 mx-120 mt-40">
+                  <div class="mt-40 input-basic-information">
+                        <!-- Heading Field -->
+                        <p class="font-NotoSans-Bold fs-6 text-uppercase">Thông tin cơ bản</p>
+                        <!-- Input Data Field -->
+                        <div class="input-fields mt-3">
+                              <div class="input">
+                                    <p class="font-WorkSans-Regular">Lĩnh vực công việc</p>
+                                    <div class="input-box input-area">
+                                          <input 
+                                                class="input-selected-options"
+                                                type="text"
+                                                placeholder="Nhập lĩnh vực công việc đăng tuyển"
+                                          >
+                                          <i class="icofont-rounded-down input-icon-show"></i>
+                                    </div>
+                              </div>
+                              <div class="input">
+                                    <p class="font-WorkSans-Regular">Kinh nghiệm yêu cầu</p>
+                                    <input 
+                                          class="input-area" 
+                                          type="text"
+                                          placeholder="Nhập số năm kinh nghiệm yêu cầu"
+                                    >
+                              </div>
+                              <div class="input">
+                                    <p class="font-WorkSans-Regular">Tên công việc tuyển dụng</p>
+                                    <input 
+                                          class="input-area" 
+                                          type="text"
+                                          placeholder="Nhập tên công việc tuyển dụng"
+                                    >
+                              </div>
+                              <div class="input">
+                                    <p class="font-WorkSans-Regular">Mức lương đề xuất</p>
+                                    <input 
+                                          class="input-area" 
+                                          type="text"
+                                          placeholder="Nhập mức lương đề xuất cho công việc"
+                                    >
+                              </div>
+                              <div class="input">
+                                    <p class="font-WorkSans-Regular">Địa điểm tuyển dụng</p>
+                                    <input 
+                                          class="input-area" 
+                                          type="text"
+                                          placeholder="Nhập tên thành phố hoặc tỉnh tuyển dụng"
+                                    >
+                              </div>
+                              <div class="input">
+                                    <p class="font-WorkSans-Regular">Hình thức việc làm</p>
+                                    <input 
+                                          class="input-area" 
+                                          type="text"
+                                          placeholder="Nhập số năm kinh nghiệm yêu cầu"
+                                    >
+                              </div>
+                        </div>
+                  </div>
+
+                  <div class="dividing-line"></div>
+
+                  <div class="input-details">
+                        <!-- Heading Field -->
+                        <p class="font-NotoSans-Bold fs-6 text-uppercase">Thông tin chi tiết</p>
+                        <div class="mt-3">
+                              <p class="font-WorkSans-Regular">Chi tiết công việc</p>
+                              <textarea class="input-job-detail"></textarea>
+                        </div>
+                        <div class="mt-3">
+                              <p class="font-WorkSans-Regular">Kỹ năng yêu cầu</p>
+                              <div class="input-required-skills">
+                                    <div class="input-column search-skills">
+                                          <input 
+                                                type="text"
+                                                placeholder="Nhập kỹ năng cần tìm kiếm"
+                                                class="search-input"
+                                          >
+                                          <div class="skill-suggestions">
+                                                <ul class="list-group list-unstyle">
+                                                      <li class="list-group-item">
+                                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                        First checkbox
+                                                      </li>
+                                                      <li class="list-group-item">
+                                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                        Second checkbox
+                                                      </li>
+                                                      <li class="list-group-item">
+                                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                        Third checkbox
+                                                      </li>
+                                                      <li class="list-group-item">
+                                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                        Fourth checkbox
+                                                      </li>
+                                                      <li class="list-group-item">
+                                                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                                                        Fifth checkbox
+                                                      </li>
+                                                    </ul>
+                                                
+                                          </div> 
+                                    </div>
+                                    <div class="input-column selected-skills">
+                                          <p class="font-WorkSans-SemiBold">Những kỹ năng đã chọn</p>
+                                          <ul class="list-selected-skills">
+                                                <li class="item-selected-skill">html</li>
+                                                <li class="item-selected-skill">css</li>
+                                                <li class="item-selected-skill">javascript</li>
+                                                <li class="item-selected-skill">jquery</li>
+                                          </ul>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
 </body>
 </html>
