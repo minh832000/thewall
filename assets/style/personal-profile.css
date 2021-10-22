@@ -78,16 +78,24 @@ p{
     top: 10%;
     left: calc(50% - 250px);
     z-index: 10;
-    width: 500px;
+    width: 98%;
+    max-width: 500px;
+}
+@media (max-width: 576px){
+    .frame{
+        left: 0;
+    }
 }
 .frame::-webkit-scrollbar { 
     display: none; 
 }
 .frame-update-inf{
-    width: 500px;
+    width: 98%;
+    max-width: 500px;
     top: 15%;
     left: calc(50% - 250px);
 }
+
 .i-close{
     width: 15px;
     right: 16px;
@@ -107,9 +115,15 @@ fieldset input[type='text']{
 fieldset select:focus{
     outline: none
 }
+input[type='search']{
+    border-radius:0px;
+    border: #ccc 1px solid;
+}
 fieldset input:focus,
 textarea:focus,
-input[type='text']:focus
+input[type='text']:focus,
+input[type='search']:focus,
+select:focus
 {
     box-shadow: 0 0 10px rgba(102, 102, 102, 0.2);
     outline:none;
@@ -158,6 +172,20 @@ textarea::placeholder{
     font-style: italic;
 }
 input[type='text']{
-    border-radius: 6px;
+    /* border-radius: 6px; */
     border: 1px solid rgba(102, 102, 102, 0.6);
+}
+.color-gray-light{
+    color: #C5C5C5;
+}
+.skill-item{
+    border-radius: 20px;
+    background: #ECECEC;
+}
+.height-45{
+    height:45px;
+}
+.vnd{
+    background: #C4C4C4;
+    width:23%;
 }
